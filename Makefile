@@ -18,4 +18,4 @@ CFLAGS := $(INCLUDE) $(CFLAGS)
 .PHONY: all clean
 all: main
 clean:
-	rm -f main $(OBJS)
+	rm -f $(OBJS)
