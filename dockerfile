@@ -1,4 +1,4 @@
-FROM python:slim
+FROM gcc
 
 RUN apt -y update && apt -y install git
 
