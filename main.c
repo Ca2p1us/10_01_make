@@ -5,6 +5,9 @@
 int main(void)
 {
     FILE *fp1, *fp2, *fp3;
+    fp1 = NULL;
+    fp2 = NULL;
+    fp3 = NULL;
     double x, y;
     double i;
     int loop = 400;
