@@ -1,4 +1,4 @@
-OBJS = main.o myfunc.o
+OBJS = main.o task.o
 
 main: $(OBJS)
 	gcc $(OBJS) -o main $(LDFLAGS)
