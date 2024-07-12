@@ -8,7 +8,7 @@ LIBDIRS := -L/usr/local/lib -L/usr/local/lib/cv2
 LDFLAGS := $(LIBDIRS) $(LIBS) $(LDFLAGS)
 
 INCLUDE := -I/usr/local/include/opencv2 \
-           -I/usr/local/include
+			-I/usr/local/include
 
 CFLAGS := $(INCLUDE) $(CFLAGS)
 
