@@ -1,8 +1,8 @@
 FROM python:slim
 
-RUN apt -y update && apt -y install git
+RUN apt-get -y update && apt-get -y install git
 
-RUN apt -y install gcc cppcheck clang clang-format make gdb
+RUN apt-get -y install gcc cppcheck clang clang-format make gdb
 
 WORKDIR /mnt
 
